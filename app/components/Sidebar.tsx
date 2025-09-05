@@ -2,6 +2,8 @@ import { NavLink } from "react-router";
 
 export default function Sidebar() {
     return (
+        <>
+        <img id="portrait" src="/img/portraitPhoto.jpg" alt="portrait photo"></img>
         <nav>
             <ul>
                 <li><NavLink to="/profil">Profil</NavLink></li>
@@ -10,5 +12,6 @@ export default function Sidebar() {
                 <li><NavLink to="/about">About</NavLink></li>
             </ul>
         </nav>
+        </>
     )
 }

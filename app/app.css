@@ -53,6 +53,9 @@ html, body {
   margin-bottom: 2rem;
 }
 
+nav {
+ width: 100%;
+}
 
 nav ul {
   list-style: none;
@@ -92,8 +95,173 @@ nav a.active {
 }
 
 
+/* ----------------------------------------------------------------------------*/
+/*                        PROFIL PAGE                                          */
+/* ----------------------------------------------------------------------------*/
+
+.profil {
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a2e24, #0f1f17);
+  color: #e2e8f0;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.profil h2 {
+  font-size: 2rem;
+  color: #2ecc71;
+  margin-bottom: 0.25rem;
+}
+
+.profil h3 {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+}
+
+.profil p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.profil-highlights h4 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #2ecc71;
+}
+
+.profil-highlights ul {
+  list-style: square;
+  padding: 0;
+  margin-left: 2rem;
+}
+
+.profil-highlights li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.profil-techIcon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-icon {
+  background-color: #1a2e24;
+  color: #22c55e;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px solid #22c55e;
+}
+
+
+/* ----------------------------------------------------------------------------*/
+/*                        EDUCATION PAGE                                       */
+/* ----------------------------------------------------------------------------*/
+
+.education {
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a2e24, #0f1f17);
+  color: #e2e8f0;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.education h2 {
+  font-size: 2rem;
+  color: #2ecc71;
+  margin-bottom: 2rem;
+}
+
+.education-item {
+  padding: 1.5rem;
+  margin-bottom: 4rem;
+  border-left: 4px solid #2ecc71;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.education-item h3 {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+.education-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+
+/* ----------------------------------------------------------------------------*/
+/*                        PROJECTS PAGE                                        */
+/* ----------------------------------------------------------------------------*/
+.projects {
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a2e24, #0f1f17);
+  color: #e2e8f0;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #2ecc71;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-left: 4px solid #2ecc71;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.project-thumbnail {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.project-content h3 {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+.project-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+
+/* ----------------------------------------------------------------------------*/
+/*                        ABOUT PAGE                                           */
+/* ----------------------------------------------------------------------------*/
 .about {
   padding: 2rem;
+  margin: auto;
+  margin-top: 6rem;
+  max-width: 800px;
   background: linear-gradient(135deg, #1a2e24, #0f1f17);
   color: #e2e8f0;
   border-radius: 12px;

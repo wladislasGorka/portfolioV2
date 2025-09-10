@@ -19,14 +19,14 @@ export default function About() {
           label="Email"
         />
         <ContactLink
-          icon={FaGithub}
-          url="https://github.com/wladislasGorka"
-          label="GitHub"
-        />
-        <ContactLink
           icon={FaLinkedin}
           url="https://linkedin.com/in/wladislas-gorka"
           label="LinkedIn"
+        />
+        <ContactLink
+          icon={FaGithub}
+          url="https://github.com/wladislasGorka"
+          label="GitHub"
         />
       </div>
     </section>
